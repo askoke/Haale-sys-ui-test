@@ -1,0 +1,17 @@
+.Summary {
+    width: 50%;
+    height: 20%;
+    font-size: calc(20px + 2vmin);
+}
+
+.Summary-text-title {
+    float: left;
+    height: 100%;
+    font-weight: bold;
+}
+
+.Summary-text {
+    width: auto;
+    float: right;
+    text-align: left;
+}
