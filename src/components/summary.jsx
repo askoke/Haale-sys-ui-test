@@ -1,4 +1,4 @@
-import votes from "../data/votes.json"
+import { data } from "../data/votes"
 import "./summary.css";
 
 function Summary() {
@@ -6,8 +6,8 @@ function Summary() {
         <div className="Summary">
             <p className="Summary-text-title">Tulemus ~ </p>
             <div className="Summary-text">
-                <p>poolt {votes.filter((item) => item.vote === 'For').length} haalt</p>
-                <p>vastu {votes.filter((item) => item.vote === 'Against').length} haalt</p>
+                <p>poolt {data.filter((item) => item.vote === 'For').length} haalt</p>
+                <p>vastu {data.filter((item) => item.vote === 'Against').length} haalt</p>
             </div>
         </div>
     );

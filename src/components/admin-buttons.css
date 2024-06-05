@@ -1,0 +1,35 @@
+.Buttons {
+    width: 50%;
+    height: 20%;
+    font-size: calc(20px + 2vmin);
+    margin-top: 20px;
+    float: right;
+}
+
+.Clear {
+    height: 50px;
+    width: 150px;
+    background-color: gray;
+    border-radius: 5px;
+    border-width: 2px;
+    color: #fff;
+    font-size: calc(15px + 2vmin);
+    font-weight: bold;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-right: 20px;
+    float: right;
+}
+
+.Submit {
+    height: 50px;
+    width: 150px;
+    background-color: green;
+    border-radius: 5px;
+    border-width: 2px;
+    color: #fff;
+    font-size: calc(15px + 2vmin);
+    font-weight: bold;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+    margin-left: 20px;
+    float: right;
+}
