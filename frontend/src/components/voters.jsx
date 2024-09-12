@@ -35,7 +35,7 @@ function Voters(props) {
                     {props.voters.map(voter => (
                         <li key={voter.User_id}>
                             <label className="Voter-name">{voter.Nimi}</label>
-                            <select name="vote" className="Voter-vote">
+                            <select name="vote" className="Voter-vote" label="single-vote" id={voter.User_id}>
                                 <option value="Against">Vastu</option>
                                 <option value="For">Poolt</option>
                             </select>
