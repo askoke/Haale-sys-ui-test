@@ -10,15 +10,15 @@ const TULEMUSED = sequelize.define('TULEMUSED', {
     },
     Haalte_arv: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: true
     },
     Haal_poolt: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: true
     },
     Haal_vastu: {
         type: DataTypes.INTEGER,
-        allowNull: false
+        allowNull: true
     },
     createdAt: {
         type: DataTypes.DATE,

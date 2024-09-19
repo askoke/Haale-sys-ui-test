@@ -1,7 +1,7 @@
 import mysql from 'mysql2/promise';
 
 console.log("create connection");
-const connection = await mysql.createPool({
+const connection = mysql.createPool({
     host: 'localhost',
     port: 3306,
     user: "askoita22_haale_admin",
@@ -10,7 +10,7 @@ const connection = await mysql.createPool({
 });
 
 // console.log("try query");
-// console.log( await connection.query('select * from HAALETUS;') );
+// console.log(await connection.query('select Tulemuse_id from TULEMUSEDs;'));
 // console.log("end");
 // await connection.end();
 
