@@ -76,6 +76,7 @@ describe('Backend Server', () => {
 
     // DELETE request tests
 
+    // Test uses a bit of force to run due to databese triggers
     test('should respond with a 203 status code for a valid DELETE request to /votes/:id', async () => {
         await request(app).delete('/votes/135')
         .then(res => {
