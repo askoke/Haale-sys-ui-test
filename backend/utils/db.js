@@ -1,12 +1,14 @@
 import mysql from 'mysql2/promise';
 
+// Made database login data more dynamic
+
 console.log("create connection");
 const connection = mysql.createPool({
     host: 'localhost',
-    port: 3306,
-    user: "askoita22_haale_admin",
-    password: "qwertyqwertyqwerty",
-    database: "askoita22_haaletamine_AB",
+    port: {PORT},
+    user: {USER},
+    password: {PASSWORD},
+    database: {DATABASE},
 });
 
 // console.log("try query");
